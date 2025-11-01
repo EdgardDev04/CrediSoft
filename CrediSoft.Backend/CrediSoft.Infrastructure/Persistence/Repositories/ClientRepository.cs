@@ -1,6 +1,7 @@
 ﻿using CrediSoft.Domain.Entities;
 using CrediSoft.Domain.Interfaces;
-using CrediSoft.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace CrediSoft.Infrastructure.Persistence.Repositories
 {
@@ -15,32 +16,22 @@ namespace CrediSoft.Infrastructure.Persistence.Repositories
 
         public async Task AddAsync(Client client)
         {
-            //await _context.Client.Add(client);
-            throw new NotImplementedException();
+            await _context.Client.AddAsync(client);
         }
 
         public async Task DeleteAsync(Client client)
         {
-            //await _context.Client.Remove(client);
-            throw new NotImplementedException();
+            _context.Client.Remove(client);
         }
 
-        public Task<IEnumerable<Client>> GetAllAsync()
-        {
-            //await _context.Client.ToListAsync();
-            throw new NotImplementedException();
-        }
+        public async Task<IEnumerable<Client>> GetAllAsync() => await _context.Client.ToListAsync();
 
-        public Task<Client?> GetByIdAsync(int id)
-        {
-            //await _context.Client.FirstOrDefaultAsync(c => c.Id == id);
-            throw new NotImplementedException();
-        }
+        public async Task<Client?> GetByIdAsync(int id) => await _context.Client.FirstOrDefaultAsync(c => c.Id == id);
 
-        public Task UpdateAsync(Client client)
+
+        public async Task UpdateAsync(Client client)
         {
-            //await _context.Client.Update(client);
-            throw new NotImplementedException();
+            _context.Client.Update(client);
         }
     }
 }

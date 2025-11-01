@@ -1,4 +1,6 @@
 
+using CrediSoft.Infrastructure.DependencyInjection;
+
 namespace CrediSoft.WebAPI
 {
     public class Program
@@ -11,7 +13,7 @@ namespace CrediSoft.WebAPI
 
             builder.Services.AddControllers();
            // builder.Services.AddApplicationServices();   // (extensión que registra MediatR, AutoMapper, etc.)
-           // builder.Services.AddInfrastructureServices(builder.Configuration);
+            builder.Services.AddInfrastructureServices(builder.Configuration);
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
