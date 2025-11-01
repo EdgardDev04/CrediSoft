@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5166F3F9-0037-4551-9C1E-CC7CFEEF0E91}|CrediSoft.Tests\\CrediSoft.Tests.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5166F3F9-0037-4551-9C1E-CC7CFEEF0E91}|CrediSoft.Tests\\CrediSoft.Tests.csproj|solutionrelative:credisoft.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585C9F19-9222-405B-B20E-250258757C22}|CrediSoft.Infrastructure\\CrediSoft.Infrastructure.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585C9F19-9222-405B-B20E-250258757C22}|CrediSoft.Infrastructure\\CrediSoft.Infrastructure.csproj|solutionrelative:credisoft.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8970250-92B9-4324-BE3E-88B1B7B8D8A7}|CrediSoft.Application\\CrediSoft.Application.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8970250-92B9-4324-BE3E-88B1B7B8D8A7}|CrediSoft.Application\\CrediSoft.Application.csproj|solutionrelative:credisoft.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|solutionrelative:credisoft.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "CrediSoft.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "CrediSoft.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T01:46:39.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "CrediSoft.Infrastructure\\Class1.cs",
+              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "CrediSoft.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T01:45:31.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "CrediSoft.Application\\Class1.cs",
+              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Application\\Class1.cs",
+              "RelativeToolTip": "CrediSoft.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T01:45:03.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "CrediSoft.Domain\\Class1.cs",
+              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Class1.cs",
+              "RelativeToolTip": "CrediSoft.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T01:44:44.392Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

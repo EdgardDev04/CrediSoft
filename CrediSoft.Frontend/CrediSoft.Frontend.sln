@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrediSoft.WebApp", "CrediSoft.WebApp\CrediSoft.WebApp.csproj", "{082B0E76-09F3-4649-A94E-89D2EE93E048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrediSoft.WinForms", "CrediSoft.WinForms\CrediSoft.WinForms.csproj", "{3E79F859-594D-4BEE-A630-BEA19395889B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{082B0E76-09F3-4649-A94E-89D2EE93E048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082B0E76-09F3-4649-A94E-89D2EE93E048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082B0E76-09F3-4649-A94E-89D2EE93E048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082B0E76-09F3-4649-A94E-89D2EE93E048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E79F859-594D-4BEE-A630-BEA19395889B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E79F859-594D-4BEE-A630-BEA19395889B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E79F859-594D-4BEE-A630-BEA19395889B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E79F859-594D-4BEE-A630-BEA19395889B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C064326A-7AA4-4844-965E-F1BB30FB71FF}
+	EndGlobalSection
+EndGlobal
