@@ -10,6 +10,8 @@ namespace CrediSoft.WebAPI
             // Add services to the container.
 
             builder.Services.AddControllers();
+           // builder.Services.AddApplicationServices();   // (extensión que registra MediatR, AutoMapper, etc.)
+           // builder.Services.AddInfrastructureServices(builder.Configuration);
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
