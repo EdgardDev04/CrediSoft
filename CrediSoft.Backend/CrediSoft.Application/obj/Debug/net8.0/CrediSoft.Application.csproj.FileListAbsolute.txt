@@ -1,0 +1,16 @@
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\obj\Debug\net8.0\CrediSoft.Application.csproj.AssemblyReference.cache
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\obj\Debug\net8.0\CrediSoft.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\obj\Debug\net8.0\CrediSoft.Application.AssemblyInfoInputs.cache
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\obj\Debug\net8.0\CrediSoft.Application.AssemblyInfo.cs
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\obj\Debug\net8.0\CrediSoft.Application.csproj.CoreCompileInputs.cache
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\obj\Debug\net8.0\CrediSoft.Application.sourcelink.json
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\bin\Debug\net8.0\CrediSoft.Application.deps.json
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\bin\Debug\net8.0\CrediSoft.Application.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\bin\Debug\net8.0\CrediSoft.Application.pdb
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\bin\Debug\net8.0\CrediSoft.Domain.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\bin\Debug\net8.0\CrediSoft.Domain.pdb
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\obj\Debug\net8.0\CrediSof.4EC21728.Up2Date
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\obj\Debug\net8.0\CrediSoft.Application.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\obj\Debug\net8.0\refint\CrediSoft.Application.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\obj\Debug\net8.0\CrediSoft.Application.pdb
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.Application\obj\Debug\net8.0\ref\CrediSoft.Application.dll

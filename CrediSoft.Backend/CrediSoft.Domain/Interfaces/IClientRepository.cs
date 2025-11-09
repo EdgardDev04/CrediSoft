@@ -10,5 +10,6 @@ namespace CrediSoft.Domain.Interfaces
         Task AddAsync(Client client);
         Task UpdateAsync(Client client);
         Task DeleteAsync(Client client);
+        Task<IEnumerable<Client>> GetActiveClientsAsync();
     }
 }

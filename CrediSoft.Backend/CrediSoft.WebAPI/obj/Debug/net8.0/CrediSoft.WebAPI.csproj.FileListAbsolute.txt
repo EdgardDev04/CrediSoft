@@ -163,3 +163,14 @@ D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\ru\Mi
 D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\AutoMapper.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\FluentValidation.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\MediatR.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\CrediSoft.Application.dll
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\bin\Debug\net8.0\CrediSoft.Application.pdb
+D:\CrediSoft\CrediSoft\CrediSoft.Backend\CrediSoft.WebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -79,7 +79,7 @@ namespace CrediSoft.Infrastructure.Persistence.Configurations
                     .HasMaxLength(100);
 
                 address.Property(a => a.PostalCode)
-                    .HasColumnName("ZipCode")
+                    .HasColumnName("PostalCode")
                     .HasMaxLength(20);
             });
 

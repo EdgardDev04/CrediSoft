@@ -28,6 +28,7 @@ namespace CrediSoft.Infrastructure.Persistence.Repositories
 
         public async Task<Client?> GetByIdAsync(int id) => await _context.Client.FirstOrDefaultAsync(c => c.Id == id);
 
+        public async Task<IEnumerable<Client>> GetActiveClientsAsync() => await _context.Client.Where(c => c.IsActive == true).ToListAsync();
 
         public async Task UpdateAsync(Client client)
         {

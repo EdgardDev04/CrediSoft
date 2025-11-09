@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CrediSoft.Application\CrediSoft.Application.csproj" />
     <ProjectReference Include="..\CrediSoft.Infrastructure\CrediSoft.Infrastructure.csproj" />
   </ItemGroup>
 

@@ -20,7 +20,7 @@
           }
         }
       },
-      "FluentValidation/12.0.0": {
+      "FluentValidation/12.1.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/FluentValidation.dll": {
@@ -197,6 +197,16 @@
             "related": ".xml"
           }
         }
+      },
+      "CrediSoft.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CrediSoft.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrediSoft.Domain.dll": {}
+        }
       }
     }
   },
@@ -221,16 +231,16 @@
         "lib/netstandard2.0/AutoMapper.xml"
       ]
     },
-    "FluentValidation/12.0.0": {
-      "sha512": "8NVLxtMUXynRHJIX3Hn1ACovaqZIJASufXIIFkD0EUbcd5PmMsL1xUD5h548gCezJ5BzlITaR9CAMrGe29aWpA==",
+    "FluentValidation/12.1.0": {
+      "sha512": "FqWEn8BdbbFEHGanj9K8SVo+LyBeFWy2rolaE+e1TNUbifr8M7Iss+I1AqTSc8kjKtvjl/WN4XIHiRpslh42bA==",
       "type": "package",
-      "path": "fluentvalidation/12.0.0",
+      "path": "fluentvalidation/12.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "fluent-validation-icon.png",
-        "fluentvalidation.12.0.0.nupkg.sha512",
+        "fluentvalidation.12.1.0.nupkg.sha512",
         "fluentvalidation.nuspec",
         "lib/net8.0/FluentValidation.dll",
         "lib/net8.0/FluentValidation.xml"
@@ -549,12 +559,18 @@
         "microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
         "microsoft.identitymodel.tokens.nuspec"
       ]
+    },
+    "CrediSoft.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CrediSoft.Domain/CrediSoft.Domain.csproj",
+      "msbuildProject": "../CrediSoft.Domain/CrediSoft.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 15.1.0",
-      "FluentValidation >= 12.0.0",
+      "CrediSoft.Domain >= 1.0.0",
+      "FluentValidation >= 12.1.0",
       "MediatR >= 13.1.0"
     ]
   },
@@ -590,7 +606,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\CrediSoft.Domain.csproj": {
+              "projectPath": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\CrediSoft.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -615,7 +635,7 @@
           },
           "FluentValidation": {
             "target": "Package",
-            "version": "[12.0.0, )"
+            "version": "[12.1.0, )"
           },
           "MediatR": {
             "target": "Package",

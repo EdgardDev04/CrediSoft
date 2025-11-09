@@ -8,7 +8,7 @@ namespace CrediSoft.Infrastructure.Persistence
     {
         private readonly CrediSoftDbContext _context;
         private IDbContextTransaction _transaction;
-
+     
         public IClientRepository Client { get; }
 
         public ILoanRepository Loan { get; }

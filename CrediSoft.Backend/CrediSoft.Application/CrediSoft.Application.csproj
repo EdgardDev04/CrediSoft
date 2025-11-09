@@ -7,27 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Clients\" />
-    <Folder Include="Commands\Loans\" />
-    <Folder Include="Commands\Users\" />
-    <Folder Include="DTOs\Clients\" />
-    <Folder Include="DTOs\Loans\" />
-    <Folder Include="DTOs\Users\" />
-    <Folder Include="Handlers\Clients\" />
-    <Folder Include="Handlers\Loans\" />
-    <Folder Include="Handlers\Users\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Queries\Clients\" />
-    <Folder Include="Queries\Loans\" />
-    <Folder Include="Queries\Users\" />
-    <Folder Include="Services\" />
-    <Folder Include="Validators\" />
+    <PackageReference Include="AutoMapper" Version="15.1.0" />
+    <PackageReference Include="FluentValidation" Version="12.1.0" />
+    <PackageReference Include="MediatR" Version="13.1.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="15.1.0" />
-    <PackageReference Include="FluentValidation" Version="12.0.0" />
-    <PackageReference Include="MediatR" Version="13.1.0" />
+    <ProjectReference Include="..\CrediSoft.Domain\CrediSoft.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|solutionrelative:credisoft.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BF94A18-705C-4D23-BB52-93856DF350AB}|CrediSoft.WebAPI\\CrediSoft.WebAPI.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.webapi\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF94A18-705C-4D23-BB52-93856DF350AB}|CrediSoft.WebAPI\\CrediSoft.WebAPI.csproj|solutionrelative:credisoft.webapi\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.domain\\entities\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|solutionrelative:credisoft.domain\\entities\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BF94A18-705C-4D23-BB52-93856DF350AB}|CrediSoft.WebAPI\\CrediSoft.WebAPI.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.webapi\\credisoft.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4BF94A18-705C-4D23-BB52-93856DF350AB}|CrediSoft.WebAPI\\CrediSoft.WebAPI.csproj|solutionrelative:credisoft.webapi\\credisoft.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|solutionrelative:credisoft.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BF94A18-705C-4D23-BB52-93856DF350AB}|CrediSoft.WebAPI\\CrediSoft.WebAPI.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BF94A18-705C-4D23-BB52-93856DF350AB}|CrediSoft.WebAPI\\CrediSoft.WebAPI.csproj|solutionrelative:credisoft.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|solutionrelative:credisoft.domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BF94A18-705C-4D23-BB52-93856DF350AB}|CrediSoft.WebAPI\\CrediSoft.WebAPI.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF94A18-705C-4D23-BB52-93856DF350AB}|CrediSoft.WebAPI\\CrediSoft.WebAPI.csproj|solutionrelative:credisoft.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.domain\\interfaces\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|solutionrelative:credisoft.domain\\interfaces\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8970250-92B9-4324-BE3E-88B1B7B8D8A7}|CrediSoft.Application\\CrediSoft.Application.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8970250-92B9-4324-BE3E-88B1B7B8D8A7}|CrediSoft.Application\\CrediSoft.Application.csproj|solutionrelative:credisoft.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEE8D6EF-4FEC-4BE3-A38D-65E958DA55CC}|CrediSoft.Domain\\CrediSoft.Domain.csproj|solutionrelative:credisoft.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{585C9F19-9222-405B-B20E-250258757C22}|CrediSoft.Infrastructure\\CrediSoft.Infrastructure.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.infrastructure\\persistence\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{585C9F19-9222-405B-B20E-250258757C22}|CrediSoft.Infrastructure\\CrediSoft.Infrastructure.csproj|solutionrelative:credisoft.infrastructure\\persistence\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{585C9F19-9222-405B-B20E-250258757C22}|CrediSoft.Infrastructure\\CrediSoft.Infrastructure.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.infrastructure\\persistence\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{585C9F19-9222-405B-B20E-250258757C22}|CrediSoft.Infrastructure\\CrediSoft.Infrastructure.csproj|solutionrelative:credisoft.infrastructure\\persistence\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{585C9F19-9222-405B-B20E-250258757C22}|CrediSoft.Infrastructure\\CrediSoft.Infrastructure.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.infrastructure\\persistence\\credisoftdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{585C9F19-9222-405B-B20E-250258757C22}|CrediSoft.Infrastructure\\CrediSoft.Infrastructure.csproj|solutionrelative:credisoft.infrastructure\\persistence\\credisoftdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{585C9F19-9222-405B-B20E-250258757C22}|CrediSoft.Infrastructure\\CrediSoft.Infrastructure.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.infrastructure\\dependencyinjection\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{585C9F19-9222-405B-B20E-250258757C22}|CrediSoft.Infrastructure\\CrediSoft.Infrastructure.csproj|solutionrelative:credisoft.infrastructure\\dependencyinjection\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{585C9F19-9222-405B-B20E-250258757C22}|CrediSoft.Infrastructure\\CrediSoft.Infrastructure.csproj|d:\\credisoft\\credisoft\\credisoft.backend\\credisoft.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585C9F19-9222-405B-B20E-250258757C22}|CrediSoft.Infrastructure\\CrediSoft.Infrastructure.csproj|solutionrelative:credisoft.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,140 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "CrediSoft.Domain\\Entities\\User.cs",
-              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "CrediSoft.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:55:37.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Loan.cs",
-              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Entities\\Loan.cs",
-              "RelativeDocumentMoniker": "CrediSoft.Domain\\Entities\\Loan.cs",
-              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Entities\\Loan.cs",
-              "RelativeToolTip": "CrediSoft.Domain\\Entities\\Loan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:55:33.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IClientRepository.cs",
-              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Interfaces\\IClientRepository.cs",
-              "RelativeDocumentMoniker": "CrediSoft.Domain\\Interfaces\\IClientRepository.cs",
-              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Interfaces\\IClientRepository.cs",
-              "RelativeToolTip": "CrediSoft.Domain\\Interfaces\\IClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:51:54.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "CrediSoft.Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "CrediSoft.Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:51:49.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ILoanRepository.cs",
-              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Interfaces\\ILoanRepository.cs",
-              "RelativeDocumentMoniker": "CrediSoft.Domain\\Interfaces\\ILoanRepository.cs",
-              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Interfaces\\ILoanRepository.cs",
-              "RelativeToolTip": "CrediSoft.Domain\\Interfaces\\ILoanRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:51:43.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "CrediSoft.Domain\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Domain\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "CrediSoft.Domain\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:38:59.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Infrastructure\\Persistence\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "CrediSoft.Infrastructure\\Persistence\\UnitOfWork.cs",
-              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Infrastructure\\Persistence\\UnitOfWork.cs",
-              "RelativeToolTip": "CrediSoft.Infrastructure\\Persistence\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:38:39.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CrediSoftDbContext.cs",
-              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Infrastructure\\Persistence\\CrediSoftDbContext.cs",
-              "RelativeDocumentMoniker": "CrediSoft.Infrastructure\\Persistence\\CrediSoftDbContext.cs",
-              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Infrastructure\\Persistence\\CrediSoftDbContext.cs",
-              "RelativeToolTip": "CrediSoft.Infrastructure\\Persistence\\CrediSoftDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:35:53.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ClientRepository.cs",
-              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Infrastructure\\Persistence\\Repositories\\ClientRepository.cs",
-              "RelativeDocumentMoniker": "CrediSoft.Infrastructure\\Persistence\\Repositories\\ClientRepository.cs",
-              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Infrastructure\\Persistence\\Repositories\\ClientRepository.cs",
-              "RelativeToolTip": "CrediSoft.Infrastructure\\Persistence\\Repositories\\ClientRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:32:44.179Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InfrastructureServiceRegistration.cs",
-              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
-              "RelativeDocumentMoniker": "CrediSoft.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
-              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
-              "RelativeToolTip": "CrediSoft.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CrediSoft.WebAPI.http",
+              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.WebAPI\\CrediSoft.WebAPI.http",
+              "RelativeDocumentMoniker": "CrediSoft.WebAPI\\CrediSoft.WebAPI.http",
+              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.WebAPI\\CrediSoft.WebAPI.http",
+              "RelativeToolTip": "CrediSoft.WebAPI\\CrediSoft.WebAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-08T21:31:09.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "CrediSoft.Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "CrediSoft.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:31:49.254Z",
+              "WhenOpened": "2025-11-08T21:15:17.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "CrediSoft.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "CrediSoft.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T21:13:45.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "CrediSoft.WebAPI\\appsettings.json",
+              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.WebAPI\\appsettings.json",
+              "RelativeToolTip": "CrediSoft.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-08T21:13:30.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CrediSoft.WebAPI\\Program.cs",
+              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.WebAPI\\Program.cs",
+              "RelativeToolTip": "CrediSoft.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T21:12:09.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.WebAPI\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "CrediSoft.WebAPI\\Controllers\\ClientController.cs",
+              "ToolTip": "D:\\CrediSoft\\CrediSoft\\CrediSoft.Backend\\CrediSoft.WebAPI\\Controllers\\ClientController.cs*",
+              "RelativeToolTip": "CrediSoft.WebAPI\\Controllers\\ClientController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T21:11:00.65Z",
               "EditorCaption": ""
             }
           ]

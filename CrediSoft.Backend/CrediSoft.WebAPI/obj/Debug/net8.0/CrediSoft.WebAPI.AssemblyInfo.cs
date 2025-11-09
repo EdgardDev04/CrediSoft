@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrediSoft.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a126407462a4c03c3a93de414379cb4aced397eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf41c813888240528bc3d7277eaf56f993601f68")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrediSoft.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrediSoft.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
