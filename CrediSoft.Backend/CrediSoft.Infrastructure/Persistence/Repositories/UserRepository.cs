@@ -1,5 +1,6 @@
 ﻿using CrediSoft.Domain.Entities;
 using CrediSoft.Domain.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,28 +18,25 @@ namespace CrediSoft.Infrastructure.Persistence.Repositories
             _context = context;
         }
 
-        public Task AddAsync(User user)
+        public async Task AddAsync(User user)
         {
-            // await _context.User.Add(client);
-            throw new NotImplementedException();
+            await _context.User.AddAsync(user);
         }
 
-        public Task DeleteAsync(User user)
+        public async Task DeleteAsync(User user)
         {
-            // await _context.User.Remove(client);
-            throw new NotImplementedException();
+             _context.User.Remove(user);
         }
 
-        public Task<User?> GetByIdAsync(int id)
-        {
-            // await _context.User.FirstOrDefaultAsync(client);
-            throw new NotImplementedException();
-        }
+        public async Task<bool> ExistEmailAsync(string email) => await _context.User.AnyAsync(u => u.Email == email);
 
-        public Task UpdateAsync(User user)
+        public async Task<User?> GetByIdAsync(int id) => await _context.User.FirstOrDefaultAsync( u => u.Id == id);
+
+        public async Task<User?> GetUserByUsernameAsync(string username) => await _context.User.FirstOrDefaultAsync(u => u.UserName == username);
+
+        public async Task UpdateAsync(User user)
         {
-            // await _context.User.Update(client);
-            throw new NotImplementedException();
+            _context.User.Update(user);
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrediSoft.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf41c813888240528bc3d7277eaf56f993601f68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26351ca6b77020403ea23500ebdff84d81a386f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrediSoft.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrediSoft.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

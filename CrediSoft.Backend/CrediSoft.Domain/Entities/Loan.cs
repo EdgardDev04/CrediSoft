@@ -27,5 +27,6 @@ namespace CrediSoft.Domain.Entities
         public int GracePeriodDays { get; set; }
         public int ClientId { get; set; }
         public Client Client { get; set; }
+
     }
 }

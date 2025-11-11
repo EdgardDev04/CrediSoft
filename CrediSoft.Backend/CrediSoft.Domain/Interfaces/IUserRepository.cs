@@ -9,5 +9,8 @@ namespace CrediSoft.Domain.Interfaces
         Task AddAsync(User user);
         Task UpdateAsync(User user);
         Task DeleteAsync(User user);
+        Task<bool> ExistEmailAsync(string email);
+        Task<User?> GetUserByUsernameAsync(string username);
+
     }
 }

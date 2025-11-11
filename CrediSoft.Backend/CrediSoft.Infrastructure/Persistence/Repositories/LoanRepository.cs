@@ -30,9 +30,9 @@ namespace CrediSoft.Infrastructure.Persistence.Repositories
 
         public async  Task<IEnumerable<Loan>> GetAllAsync() => await _context.Loan.ToListAsync();
 
+        public async Task<IEnumerable<Loan>> GetByClientIdAsync(int id) => await _context.Loan.Where(l => l.ClientId == id).ToListAsync();
 
         public async Task<Loan?> GetByIdAsync(int id) => await _context.Loan.FirstOrDefaultAsync(l => l.Id == id);
-
 
         public async Task UpdateAsync(Loan loan)
         {

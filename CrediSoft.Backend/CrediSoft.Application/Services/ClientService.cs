@@ -37,11 +37,21 @@ namespace CrediSoft.Application.Services
             var client = await _unitOfWork.Client.GetByIdAsync(clientId);
             
             if (client == null) return false;
-          
-            await _unitOfWork.Client.DeleteAsync(client);
-            await _unitOfWork.SaveChangesAsync();
-            return true;
-           
+
+            await _unitOfWork.BeginTransactionAsync();
+            try
+            {
+                await _unitOfWork.Client.DeleteAsync(client);
+                await _unitOfWork.SaveChangesAsync();
+                await _unitOfWork.CommitAsync();
+                return true;
+            }
+            catch
+            {
+                await _unitOfWork.RollbackAsync();
+                throw;
+            }
+
         }
 
         public async Task<IEnumerable<ClientDto>> GetActiveClientsAsync()
@@ -89,7 +99,7 @@ namespace CrediSoft.Application.Services
             return clientDto;
         }
 
-        public Task<ClientDto?> GetClientByDocumentAsync(string identification)
+        public Task<ClientDto?> GetClientByDocumentAsync(string document)
         {
             throw new NotImplementedException();
         }
@@ -104,7 +114,7 @@ namespace CrediSoft.Application.Services
                 var errors = string.Join("; ", validationResult.Errors.Select(e => e.ErrorMessage));
                 throw new ValidationException(errors);
             }
-
+            
             var client = _mapper.Map<Client>(clientDto);
 
             await _unitOfWork.BeginTransactionAsync();
@@ -128,6 +138,8 @@ namespace CrediSoft.Application.Services
                 throw new ArgumentNullException(nameof(clientDto));
 
             var client = await _unitOfWork.Client.GetByIdAsync(clientId);
+
+            
             if (client == null) return false;
 
             _mapper.Map(clientDto, client);

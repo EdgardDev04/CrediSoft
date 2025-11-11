@@ -24,5 +24,7 @@ namespace CrediSoft.Domain.Entities
         public int CreditScore { get; set; }
         public bool IsActive { get; set; }
         public ICollection<Loan> Loans { get; set; } = new List<Loan>();
+
     }
+
 }

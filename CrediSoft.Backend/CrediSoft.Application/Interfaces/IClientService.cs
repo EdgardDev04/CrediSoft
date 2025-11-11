@@ -12,7 +12,7 @@ namespace CrediSoft.Application.Interfaces
         Task CreateClientAsync(CreateClientDto clientDto);
         Task<bool> UpdateClientAsync(int clientId, UpdateClientDto clientDto);
         Task<ClientDto?> GetClientByIdAsync(int clientId);
-        Task<ClientDto?> GetClientByDocumentAsync(string identification);
+        Task<ClientDto?> GetClientByDocumentAsync(string document);
         Task<IEnumerable<ClientDto>> GetAllClientsAsync();
         Task<IEnumerable<ClientDto>> GetActiveClientsAsync();
         Task<bool> ChangeClientStatusAsync(int clientId, bool isActive);

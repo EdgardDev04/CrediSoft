@@ -9,6 +9,7 @@ namespace CrediSoft.Application.Profiles
         public LoanProfile()
         {
             CreateMap<Loan, LoanDto>();
+            CreateMap<LoanDto, Loan>();
         }
     }
 }

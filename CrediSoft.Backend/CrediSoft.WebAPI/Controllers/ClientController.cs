@@ -1,4 +1,5 @@
-﻿using CrediSoft.Application.Services;
+﻿using CrediSoft.Application.DTOs;
+using CrediSoft.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CrediSoft.WebAPI.Controllers
@@ -29,6 +30,14 @@ namespace CrediSoft.WebAPI.Controllers
                 return NotFound();
 
             return Ok(client); 
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateClientAsync(CreateClientDto dto)
+        {
+            await _service.CreateClientAsync(dto);
+
+            return Ok(dto);
         }
     }
 }

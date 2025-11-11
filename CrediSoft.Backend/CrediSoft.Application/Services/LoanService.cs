@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using CrediSoft.Application.DTOs;
 using CrediSoft.Application.Interfaces;
+using CrediSoft.Domain.Entities;
 using CrediSoft.Domain.Interfaces;
 
 namespace CrediSoft.Application.Services
@@ -21,7 +22,7 @@ namespace CrediSoft.Application.Services
             _mapper = mapper;
         }
 
-        public Task<bool> ChangeLoanStatusAsync(int loanId, string newStatus)
+        public async Task<bool> ChangeLoanStatusAsync(int loanId, string newStatus)
         {
             throw new NotImplementedException();
         }
@@ -36,19 +37,31 @@ namespace CrediSoft.Application.Services
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<LoanDto>> GetAllLoansAsync()
+        public async Task<IEnumerable<LoanDto>> GetAllLoansAsync()
         {
-            throw new NotImplementedException();
+            var getloans = await _unitOfWork.Loan.GetAllAsync();
+
+            var loans = _mapper.Map<IEnumerable<LoanDto>>(getloans);
+
+            return loans;
         }
 
-        public Task<LoanDto?> GetLoanByIdAsync(int loanId)
+        public async Task<LoanDto?> GetLoanByIdAsync(int loanId)
         {
-            throw new NotImplementedException();
+            var getloan = await _unitOfWork.Loan.GetByIdAsync(loanId);
+
+            var loan = _mapper.Map<Loan, LoanDto>(getloan);
+
+            return loan;
         }
 
-        public Task<IEnumerable<LoanDto>> GetLoansByClientIdAsync(int clientId)
+        public async Task<IEnumerable<LoanDto>> GetLoansByClientIdAsync(int clientId)
         {
-            throw new NotImplementedException();
+            var getloans = await _unitOfWork.Loan.GetByClientIdAsync(clientId);
+
+            var loans = _mapper.Map<IEnumerable<LoanDto>>(getloans);
+
+            return loans;
         }
 
         public Task<IEnumerable<LoanDto>> GetOverdueLoansAsync()

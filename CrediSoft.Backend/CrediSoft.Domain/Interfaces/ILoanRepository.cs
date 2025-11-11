@@ -6,6 +6,7 @@ namespace CrediSoft.Domain.Interfaces
     {
         Task<IEnumerable<Loan>> GetAllAsync();
         Task<Loan?> GetByIdAsync(int id);
+        Task<IEnumerable<Loan>> GetByClientIdAsync(int id);
         Task AddAsync(Loan loan);
         Task UpdateAsync(Loan loan);
         Task DeleteAsync(Loan loan);

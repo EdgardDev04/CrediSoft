@@ -18,7 +18,7 @@ namespace CrediSoft.Application.DTOs
         public string Gender { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string MaritalStatus { get; set; } = string.Empty;
-        public string Nacionality { get; set; } = string.Empty;
+        public string Nationality { get; set; } = string.Empty;
         public string AcademicLevel { get; set; } = string.Empty;
         public ClientStatus Status { get; set; }
         public string Email { get; set; } = string.Empty;
@@ -40,7 +40,7 @@ namespace CrediSoft.Application.DTOs
         public string Gender { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string MaritalStatus { get; set; } = string.Empty;
-        public string Nacionality { get; set; } = string.Empty;
+        public string Nationality { get; set; } = string.Empty;
         public string AcademicLevel { get; set; } = string.Empty;
         public ClientStatus Status { get; set; }
         public string Email { get; set; } = string.Empty;
